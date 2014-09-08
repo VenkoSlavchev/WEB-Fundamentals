@@ -1,0 +1,100 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.head{
+    border: 3px solid black;
+    background-color: #ffff01;
+    width: 520px;
+    height: 520px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.left-eye{
+    border: 3px solid black;
+    background-color: #ffffff;
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    position: absolute;
+    top: 92px;
+    left: 92px;
+}
+.right-eye{
+    border: 3px solid black;
+    background-color: #ffffff;
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    position: absolute;
+    top: 92px;
+    left: 303px;
+}
+.inner-left-eye{
+    border: 3px solid black;
+    background-color: black;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    position: absolute;
+    top: 54px;
+    left: 53px;
+}
+.inner-right-eye{
+    border: 3px solid black;
+    background-color: black;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.nose{
+    border: 3px solid black;
+    background-color: #fb0000;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 209px;
+    left: 208px;
+}
+.mouth{
+    border: 3px solid black;
+    background-color: #ffffff;
+    width: 259px;
+    height: 101px;
+    border-radius: 55px;
+    position: absolute;
+    top: 315px;
+    left: 119px;
+}
+.left-tooth{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    background-color: #ffffff;
+    width: 49px;
+    height: 49px;
+    border-bottom-right-radius: 10px ;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 74px;
+}
+.right-tooth{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    background-color: #ffffff;
+    width: 49px;
+    height: 49px;
+    border-bottom-right-radius: 10px ;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 129px;
+}

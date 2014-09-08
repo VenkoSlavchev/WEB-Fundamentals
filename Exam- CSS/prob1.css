@@ -1,0 +1,64 @@
+html, body, section, article, h1, span, img, p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+article{
+    border: 1px solid #cbcbcb;
+}
+section{
+    padding: 10px;
+    font-family: "Verdana", "Arial","helvetica";
+}
+article{
+    width: 280px;
+    padding: 3px;
+    box-shadow: 2px 2px 2px #cbcbcb;
+}
+article h1{
+    font-size: 13px;
+
+}
+article h1 a{
+    color: black;
+    text-decoration: none;
+}
+article a:hover{
+    text-decoration: underline;
+}
+article span{
+    font-size: 10px;
+    display: block;
+    color: grey;
+}
+article img{
+    float: left;
+    margin-right: 10px;
+}
+article p{
+    font-size: 13px;
+}
+.top-left{
+     float: left;
+    margin-right: 8px;
+    margin-bottom: 8px;
+ }
+.top-right{
+    float: left;
+    margin-bottom: 8px;
+}
+.bottom-left{
+    float: left;
+    margin-right: 8px;
+}
+.bottom-right{
+    float: left;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}

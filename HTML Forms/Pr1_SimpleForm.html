@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <style>
+        body{
+            font-family: 'PT Sans', Tahoma, sans-serif;
+
+            font-size: 14px;
+        }
+        .textfield-1{
+            width: 90%;
+            height:25px;
+            margin-bottom : 7px;
+
+        }
+        .textfield-2{
+            width: 90%;
+            height:25px;
+            margin-bottom : 7px;
+        }
+        .textfield-3{
+            width: 90%;
+            height:25px;
+            margin-bottom : 7px;
+        }
+        .textfield-4{
+            width: 90%;
+            height:25px;
+            margin-bottom : 7px;
+        }
+        .textfield-5{
+            width: 90%;
+            height:25px;
+            margin-bottom : 7px;
+        }
+        .textfield-6{
+            width: 90%;
+            height:25px;
+            margin-bottom : 7px;
+        }
+        .button-1{
+            width: 45%;
+            height: 25px;
+            position: relative;left: 116px;
+            border: 1 solid;
+            border-color: #234465;
+            color: #234465;
+        }
+        .button-2{
+            width: 35%;
+            height: 25px;
+            margin-bottom : 7px;
+            position: relative;left: 47px;
+            border: 1 solid;
+            border-color: #dd8f0f;
+            color: white;
+            background-color: #234465;
+        }
+        .link{
+            position: relative;left: 145px;
+            margin-top: 0;
+            font-size: 11px;
+        }
+    </style>
+</head>
+<body>
+<div style="position:absolute;top:0px;left:0px;background-color: #eeeeee;width:550px;height: 320px;">
+    <h3 style="margin-left: 10px;color: #234465">Enter the system</h3>
+    <p style="margin-left: 10px;font-size: 11px">It is necessery to login in.Your account in order to sign in for a course.</p>
+    <div id="leftColumn" style="float:left; width:250px; height: 230px; background-color: #eeeeee;
+    padding-left:20px;">
+        <h5><span style="color:#5d5d5d;">ARE YOU NEW?</span><span style="color: #234465">REGISTER</span></h5>
+        <form method="get" action="">
+            <input class="textfield-1" type="text" name="UserName" placeholder="User name">
+            <input class="textfield-3"  type="text" name="Email" placeholder="Email">
+            <input class="textfield-5"  type="password" name="Password" placeholder="Password">
+            <input class="textfield-6"  type="password" name="Confirm Password" placeholder="Confirm Password"><br/>
+            <input class="button-1" type="submit" name="Register" value="Register">
+    </div>
+    <div id="rightColumn" style="float:left; width:250px; height: 230px; background-color: #234465;
+    padding-left: 20px;color: white">
+        <h5>ALREADY A STUDENT?LOGIN</h5>
+
+            <input class="textfield-2" type="text" name="LoginUserName" placeholder="User name">
+            <input class="textfield-4"  type="text" name="LoginEmail" placeholder="Email"><br/>
+            <input style="margin-right: 0px;position:relative;left: -4px;margin-right: -3px" type="checkbox" name="Agree" value="yes" id="RememberMeCheckBox">
+            <label style="font-size: 11px" for="RememberMeCheckBox">Remember me?</label>
+            <input class="button-2" type="submit" name="Login" value="Login" >
+            <p class="link"><u>Forgot Password</u></p>
+        </form>
+    </div>
+    <div style="clear:both"></div> <!-- Catches the shorter column up -->
+    </div>
+</body>
+</html>

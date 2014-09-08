@@ -1,0 +1,160 @@
+html,body,header,nav,h1,ul,li,a,div,h1,h2,table,thead,th,tbody,tr,td,footer,p,span{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Fairview;
+    src: url('fonts/Fairview_Regular.otf');
+}
+@font-face {
+    font-family: Nunito;
+    src: url('fonts/Nunito-Regular.ttf');
+}
+td{
+    border: 1px solid black;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    background-color: #e05e43;
+    font-family: "Fairview", "Helvetica", sans-serif ;
+    text-align: center;
+}
+header h1 a{
+font-size: 150px;
+    color: white;
+
+}
+header h1 a:hover{
+    color: black;
+}
+header nav{
+background-color: white;
+    margin-top: 10px;
+}
+header nav ul{
+    padding: 10px;
+}
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 8px;
+
+}
+header nav ul li:nth-child(3){
+    background-color: #e05e43;
+}
+header nav ul li a{
+    color: #666666;
+    font-size: 35px;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    color: black;
+}
+.different{
+    color: white;
+}
+body{
+    font-family: "Nunito", "Arial", sans-serif ;
+}
+#main{
+    width: 70%;
+    margin:0 auto;
+}
+#main h1{
+    margin-bottom: 20px;
+}#main h2{
+    margin-bottom: 15px;
+ }
+ hr{
+     margin-bottom: 15px;
+ }
+ table{
+     width: 80%;
+     text-align: left;
+ }
+ td{
+     padding: 10px 0;
+ }
+.first-table{
+     margin-bottom: 15px;
+ }
+.first-table tbody tr td span{
+    color: #aa0000;
+    border-bottom: 1px;
+    border-bottom-style: dotted;
+
+}
+.first-table tbody tr td span:hover{
+    color: black;
+    border-bottom-style: solid;
+    border-bottom-color: #aa0000 ;
+}
+.second-table{
+    margin-bottom: 55px;
+}
+.first-column{
+    width: 270px;
+}
+.second-column{
+    width: 174px;
+}
+
+.second-table tbody tr td span{
+    color: #aa0000;
+    border-bottom: 1px;
+    border-bottom-style: dotted;
+}
+.second-table tbody tr td span:hover{
+    color: black;
+    border-bottom-style: solid;
+    border-bottom-color: #aa0000 ;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: #222222;
+    padding-bottom: 15px;
+
+}
+footer ul{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+footer ul li{
+    display: inline-block;
+    margin-right: 10px;
+
+}
+footer ul li a:hover{
+    background-color: #aaaaaa;
+    color: #aa2222;
+}
+footer ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #aaaaaa;
+}
+footer div,a{
+    color: #555540;
+    margin-bottom: 15px;
+}
+footer a:hover {
+    color: white;
+}
+footer div span {
+    display: block;
+}
+footer hr{
+    width: 95%;color: #aaaaaa;
+    margin-bottom: 20px;
+}
+footer div:hover{
+    color: white;
+}
+
+

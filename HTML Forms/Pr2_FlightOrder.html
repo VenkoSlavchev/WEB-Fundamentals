@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Flight Order</title>
+    <style>
+        body{
+            font-size: 13px;
+        }
+        div{
+           background-color: #ffc0cb;
+            width: 400px;
+            height: 300px;
+           position: absolute;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <h1 style="text-align: center;vertical-align: middle"><em>FLIGHT ORDER</em></h1>
+    <form method="get" action="">
+        <label style="margin: 4%"><em>From</em></label>
+        <label style="margin-left: 36%"><em>To</em></label> <br/>
+        <select name="cityFrom" style="width: 44%;margin-left: 3.3%;margin-right: 3.3%">
+            <option value="value1" selected="selected">enter a city</option>
+        </select>
+        <select name="cityTo" style="width: 44%;margin-left: 0;margin-right: 3.3%">
+            <option value="value1" selected="selected">enter a city</option>
+        </select><br/>
+        <input type="checkbox" id="checkBox" name="preferDirects" style="margin-left: 52.5%"/>
+        <label for="checkBox"><em>Prefer directs</em></label><br/>
+        <label style="margin: 4%"><em>Departure Date</em></label>
+        <label style="margin-left: 22%"><em>Time Interval</em></label><br/>
+        <input type="date" name="departureDate" value="2014-06-09"
+               style="width: 43%;margin-left: 3.3%;margin-right: 3.3%">
+        <input type="time" name="timeIntervalleft" value="00:20"
+               style="width: 18.5%; margin-right: 3.3%">
+        <input type="time" name="timeIntervalright" value="05:00"
+        style="width: 18.5%;"><br/>
+        <label  style="margin: 4%"><em>Return Date</em></label>
+        <label style="margin-left: 27%"><em>Time Interval</em></label><br/>
+        <input type="date" name="returnDate" value="2014-06-13"
+               style="width: 43%;margin-left: 3.3%;margin-right: 3.3%">
+        <input type="time" name="secondtimeIntervalleft" value="16:00"
+               style="width: 18.5%; margin-right: 3.3%">
+        <input type="time" name="secondtimeIntervalright" value="22:00"
+               style="width: 18.5%;"><br/>
+        <label style="margin-left: 4%;margin-right:10%"><em>12+</em></label>
+        <label style="margin-right: 9%"><em>2-12</em></label>
+        <label><em>0-2</em></label>
+        <label style="margin-left: 10.5%"> <em>Choose class</em></label><br/>
+        <input type="number" name="leftNumber" value="0"
+               style="margin-left: 3.3%;margin-right: 3.3%;width: 11%">
+        <input type="number" name="middleNumber" value="0"
+               style="margin-right: 3.3%;width: 11%">
+        <input type="number" name="rightNumber" value="0"
+               style="margin-right: 3.3%;width: 11%">
+        <select name="cityTo" style="width: 44%;margin-left: 0;margin-right: 3.3%">
+            <option value="value1" selected="selected">Economy</option>
+        </select><br/>
+        <input type="submit" name="button" value="Search" style="margin-left: 51.5%;width: 44%;height: 27px">
+
+
+
+
+
+
+    </form>
+</div>
+
+</body>
+</html>

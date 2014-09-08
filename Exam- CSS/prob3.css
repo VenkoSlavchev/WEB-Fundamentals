@@ -1,0 +1,104 @@
+html,body,div,h1,label,textarea,input,form{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Yanone Keffeesatz;
+    src: url('fonts/yanonekaffeesatz-regular-webfont.ttf');
+}
+
+body{
+    background: url("imgs/form-background.png");
+    font-family: "Yanone Keffeesatz","Ariel",sans-serif;
+    text-align: center;
+}
+body>h1{
+   font-size: 50px;
+    margin: 30px auto 0 auto;
+    color: #7c7873;
+}
+#content{
+    width: 70%;
+    height: 700px;
+    margin: 0 auto;
+    background-image:url('imgs/envelope-bottom.png'), url("imgs/letter-background.png"),url("imgs/envelope-top.png");
+    background-repeat: no-repeat;
+    background-position: bottom, 283px 80px, 250px 241px;
+    background-size: 550px,480px, 548px;
+    border-radius: 10px ;
+}
+
+.first-field{
+    margin-top: 50px;
+    width: 453px;
+    position: relative;
+    left:295px;
+    top:100px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.second-field{
+    width: 453px;
+    position: relative;
+    left:295px;
+    top:100px;
+    text-align: left;
+
+}
+.first-field h1{
+    color: #7c7875;
+    font-size: 25px;
+}
+.first-field label{
+    display: block;
+    font-size: 17px;
+    color: #7c7875;
+    height: 23px;
+}
+.first-field textarea{
+    width: 100%;
+    border-radius: 7px;
+    height: 110px;
+    border: 1px solid #e6e1d8;
+
+}
+.first-field textarea:active{
+    font-family: Helvetica, Arial, sans-serif;
+}
+.second-field h1{
+    color: #7c7875;
+    font-size: 25px;
+}
+.second-field label{
+    display: block;
+    font-size: 17px;
+    color: #7c7875;
+    height: 23px;
+}
+.second-field input{
+    width: 100%;
+    border-radius: 7px;
+    height: 45px;
+    border: 1px solid #e6e1d8;
+}
+.second-field input:active{
+    font-family: Helvetica, Arial, sans-serif;
+}
+#content input[type='submit']{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #7c7873;
+    position: relative;
+    top:110px;
+    background: url("imgs/letter-background.png");
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    overflow: auto;
+}
+#content input[type='submit']:hover{
+    background-image: none;
+    background-color: #bbc9cf;
+    color: #435c70;
+}

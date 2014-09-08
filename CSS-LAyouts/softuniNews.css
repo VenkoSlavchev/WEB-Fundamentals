@@ -1,0 +1,139 @@
+html, body, footer, div, section, header, ul, li, a, hr, img {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1241px;
+    height: 572px;
+    background-color: #eeeeee;
+    position: absolute;
+    box-sizing: border-box;
+    font-family: "Helvetica","Segoe UI", "Tahoma", San-serif;
+}
+h1{
+    color: #23447c;
+    font-weight: normal;
+    font-size: 25px ;
+    margin-left: 40px;
+}
+section{
+    width: 351px;
+    height: 414px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 5px #888888;
+    background-color: white;
+    margin-left: 40px;
+}
+article{
+    box-sizing: border-box;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+    width: 285px;
+    height: 376px;
+    overflow: auto;
+}
+h2{
+    color: #23447c;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 32px;
+
+}
+h2:hover{
+  text-decoration: underline;
+}
+.middle .h2{
+    margin-bottom: 16px;
+}
+.right .h2{
+    margin-bottom: 16px;
+}
+.date{
+    text-align: right;
+    font-size: 14px;
+
+}
+.author{
+    text-align: left;
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+hr{
+    margin-bottom: 20px;
+    opacity: 0.5;
+
+}
+img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.information{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: grey;
+}
+.information:hover{
+    text-decoration: underline;
+}
+.middle .information{
+    margin-bottom: 36px;
+}
+span{
+    font-size: 12px;
+    font-weight: bold;
+    color: #5a5a5a;
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #5a5a5a;
+    opacity: 0.6;
+}
+a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+.left{
+    float: left;
+    margin-bottom: 35px;
+}
+.middle{
+    float: left;
+}
+.right {
+    float: left;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.navigation{
+    margin-left: 40px;
+}
+.navigation div{
+    width: 34px;
+    height: 34px;
+    margin-right: -3px;
+    background-color: #4ca0db;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+
+}
+.navigation div a{
+    color: white;
+    vertical-align: middle;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.navigation div:nth-child(1){
+    background-color: #ff9c00;
+}
